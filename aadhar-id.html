@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aadhar Card</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #e6f2ff; /* light blue background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 360px;
+            border: 1px solid #999;
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px; /* rounded corners */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 1px dashed #999;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+        }
+
+        .header h2 {
+            margin: 4px 0;
+            font-size: 18px;
+            color: #0073e6;
+        }
+
+        .header p {
+            margin: 0;
+            font-size: 12px;
+            color: #333;
+        }
+
+        .content {
+            font-size: 14px;
+        }
+
+        .photo {
+            width: 85px;
+            height: 100px;
+            border: 1px solid #999;
+            float: right;
+            text-align: center;
+            line-height: 100px;
+            font-size: 12px;
+            border-radius: 5px;
+            background: #f0f0f0;
+        }
+
+        .row {
+            margin-bottom: 5px;
+        }
+
+        .footer {
+            border-top: 1px dashed #999;
+            margin-top: 10px;
+            padding-top: 5px;
+            font-size: 12px;
+            text-align: center;
+            color: #555;
+        }
+
+        .qr {
+            width: 60px;
+            height: 60px;
+            border: 1px solid #999;
+            float: left;
+            margin-right: 10px;
+            text-align: center;
+            line-height: 60px;
+            font-size: 10px;
+            background: #f0f0f0;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="header">
+        <h2>आधार कार्ड / AADHAAR CARD</h2>
+        <p>Unique Identification Authority of India</p>
+    </div>
+
+    <div class="content">
+        <div class="photo">PHOTO</div>
+        <div class="qr">QR</div>
+
+        <div class="row"><strong>Name:</strong> harshita</div>
+        <div class="row"><strong>DOB:</strong> 08-11-2005</div>
+        <div class="row"><strong>Gender:</strong> female</div>
+        <div class="row"><strong>Aadhar No:</strong> 1234 5678 9012</div>
+        <div class="row"><strong>Address:</strong> telangana, India</div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="footer">
+        Please carry this card for identification purposes only.
+    </div>
+</div>
+
+</body>
+</html>

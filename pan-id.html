@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PAN Card</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 500px;
+            border: 1px solid #000;
+            border-radius: 8px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            padding: 12px;
+        }
+
+        .header {
+            height: 35px;
+            background: linear-gradient(to right, #ff9933, #ffffff, #138808); /* Indian tricolor */
+            color: #000;
+            text-align: center;
+            font-weight: bold;
+            line-height: 35px;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .content {
+            display: flex;
+            padding: 10px;
+        }
+
+        .details {
+            flex: 2;
+            font-size: 14px;
+            padding-right: 10px;
+        }
+
+        .details div {
+            margin-bottom: 5px;
+        }
+
+        .photo-sign {
+            flex: 1;
+            text-align: center;
+        }
+
+        .photo, .sign {
+            width: 90px;
+            height: 100px;
+            border: 1px solid #000;
+            margin-bottom: 8px;
+            line-height: 100px;
+            text-align: center;
+            font-size: 12px;
+            background: #f0f0f0;
+        }
+
+        .footer {
+            margin-top: 10px;
+            font-size: 12px;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="header">
+        Permanent Account Number (PAN)
+    </div>
+
+    <div class="content">
+        <div class="details">
+            <div><strong>Name:</strong> harshita</div>
+            <div><strong>Father's Name:</strong> suresh</div>
+            <div><strong>Date of Birth:</strong> 08-11-2005</div>
+            <div><strong>PAN Number:</strong> ABCDE1234F</div>
+            <div><strong>Income Tax Ward:</strong> hyderabad</div>
+        </div>
+
+        <div class="photo-sign">
+            <div class="photo">PHOTO</div>
+            <div class="sign">SIGNATURE</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        This is a government-issued PAN card. Carry for financial and identification purposes.
+    </div>
+</div>
+
+</body>
+</html>
+
